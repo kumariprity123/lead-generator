@@ -1,0 +1,26 @@
+.form-container{
+    display: flex;
+    border: rgba(255, 7, 0, 0.25) solid;
+    padding: 5px;
+    justify-content: center;
+  align-items: center;
+  flex-wrap:nowrap;
+}
+.form-container > * {
+    margin: 10px;
+}
+.form-left, .form-right{
+ flex: 0 1 auto;
+}
+.text-input {
+    margin: 15px;
+}
+.form-left{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container{
+        flex-wrap: wrap;
+    }
+}

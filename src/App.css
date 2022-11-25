@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  /* box-sizing: border-box; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-main {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* *****************chart css************************/
+
+.chart-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.chart-container > *{
+  flex: 1 1 auto;
+  margin: 10px;
+}
+.first-chart-container,.second-chart-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pie-chart {
+  /* width: 250px;
+  height: 300px; */
+  margin: 5px 20px;
+}
+
+.state-tooltip {
+  /* height: 30px; */
+}
+
+.state-tooltip > h4 {
+  line-height: 1px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.state-tooltip .caption {
+  font-weight: 500;
+}
+
+.state-tooltip sup {
+  font-size: 0.4em;
+  vertical-align: super;
+  line-height: 0;
+}
+.table-cell-trucate {
+  display: inline-block;
+  /* padding: 10px; */
+  height: 20px;
+}
+
+/* ******************************************* */
+
+.inputField{
+  margin: 0 65px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
